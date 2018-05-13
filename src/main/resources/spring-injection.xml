@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="injectionDAO" class="org.wsoft.spring.injection.dao.InjectionDAOImpl"></bean>
+
+	<!-- 方式注入方式 -->
+	<bean id="injectionService" class="org.wsoft.spring.injection.service.InjectionServiceImpl">
+		<property name="injectionDAO" ref="injectionDAO"></property>
+	</bean>
+	
+	<!-- 构造注入方式 -->
+<!-- 	<bean id="injectionService" class="org.wsoft.spring.injection.service.InjectionServiceImpl">
+		<constructor-arg name="injectionDAO" ref="injectionDAO"></constructor-arg>
+	</bean> -->
+
+</beans>
