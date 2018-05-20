@@ -3,7 +3,7 @@ package org.wsoft.spring.injection.service;
 /**
  * 业务功能接口
  * 
- * @author wangjun
+ * @author wangstudyvc
  *
  */
 public interface InjectionService {

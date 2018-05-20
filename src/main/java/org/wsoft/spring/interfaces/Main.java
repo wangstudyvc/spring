@@ -3,7 +3,7 @@ package org.wsoft.spring.interfaces;
 /**
  * 程序入口
  * 
- * @author wangjun
+ * @author wangstudyvc
  *
  */
 public class Main {

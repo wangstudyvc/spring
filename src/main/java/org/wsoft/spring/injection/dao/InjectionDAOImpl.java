@@ -3,7 +3,7 @@ package org.wsoft.spring.injection.dao;
 /**
  * 持久化接口的实现类
  * 
- * @author wangjun
+ * @author wangstudyvc
  *
  */
 public class InjectionDAOImpl implements InjectionDAO {

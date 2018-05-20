@@ -3,7 +3,7 @@ package org.wsoft.spring.injection.dao;
 /**
  * 定义持久化接口
  * 
- * @author wangjun
+ * @author wangstudyvc
  *
  */
 public interface InjectionDAO {

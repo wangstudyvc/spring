@@ -3,7 +3,7 @@ package org.wsoft.spring.bean;
 /**
  * Bean
  * 
- * @author wangjun
+ * @author wangstudyvc
  *
  */
 public class BeanScope {

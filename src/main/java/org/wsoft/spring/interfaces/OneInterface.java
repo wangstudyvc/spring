@@ -3,7 +3,7 @@ package org.wsoft.spring.interfaces;
 /**
  * 定义接口
  * 
- * @author wangjun
+ * @author wangstudyvc
  *
  */
 public interface OneInterface {

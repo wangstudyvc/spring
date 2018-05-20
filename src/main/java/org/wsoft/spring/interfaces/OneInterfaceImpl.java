@@ -2,7 +2,7 @@ package org.wsoft.spring.interfaces;
 
 /**
  * 接口实现类
- * @author wangjun
+ * @author wangstudyvc
  *
  */
 public class OneInterfaceImpl implements OneInterface {
