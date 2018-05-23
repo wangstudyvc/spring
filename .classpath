@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="lib/spring/spring-core-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/apache/commons-logging-1.1.jar"/>
 	<classpathentry kind="lib" path="lib/spring/spring-expression-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring/spring-aop-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
