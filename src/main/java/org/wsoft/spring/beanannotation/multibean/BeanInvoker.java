@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 /**
@@ -24,6 +25,12 @@ public class BeanInvoker {
 	 */
 	@Autowired
 	private Map<String, BeanInterface> map;
+	/**
+	 * 当自动装配出现歧义时，@Qualifier帮助指定具体的实现类
+	 */
+	@Autowired
+	@Qualifier("beanImplTwo")
+	private BeanInterface beanInterface;
 
 	public void say() {
 		if (null != list && 0 != list.size()) {
@@ -44,6 +51,13 @@ public class BeanInvoker {
 			}
 		} else {
 			System.out.println("Map<String, BeanInterface> map is null !!!!!!!!!!");
+		}
+		
+		System.out.println();
+		if (null != beanInterface) {
+			System.out.println(beanInterface.getClass().getName());
+		} else {
+			System.out.println("beanInterface is null...");
 		}
 	}
 

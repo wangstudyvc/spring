@@ -1,0 +1,15 @@
+可以使用@Autowired注解那些众所周知的解析依赖性接口，
+比如：
+BeanFactory,
+ApplicationContext,
+Environment,
+ResourceLoader,
+ApplicationEventPublisher,
+MessageSource.
+
+public class Sample{
+	@Autowired
+	private ApplicationContext context;
+	
+	public Sample(){}
+}
